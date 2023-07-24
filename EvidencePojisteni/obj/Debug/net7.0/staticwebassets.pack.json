@@ -1,0 +1,685 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\feature.jpg",
+      "PackagePath": "staticwebassets\\img\\feature.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-01-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-01-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-01-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-01-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-02-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-02-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-02-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-02-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-03-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-03-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-03-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-03-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-04-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-04-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-04-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-04-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-05-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-05-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-05-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-05-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-06-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-06-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-06-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-06-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-07-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-07-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-07-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-07-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-08-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-08-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-08-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-08-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-09-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-09-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-09-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-09-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-10-light.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-10-light.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\icon\\icon-10-primary.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-10-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\img\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\cldrjs\\cldr.js",
+      "PackagePath": "staticwebassets\\lib\\cldrjs\\cldr.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\cldrjs\\cldr.min.js",
+      "PackagePath": "staticwebassets\\lib\\cldrjs\\cldr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\currency.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\currency.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\currency.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\currency.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\date.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\date.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\date.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\date.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\message.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\message.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\message.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\message.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\number.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\number.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\number.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\number.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\plural.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\plural.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\plural.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\plural.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\relative-time.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\relative-time.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\relative-time.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\relative-time.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\unit.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize-runtime\\unit.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize-runtime\\unit.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\currency.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\currency.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\currency.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\currency.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\date.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\date.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\date.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\date.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\message.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\message.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\message.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\message.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\number.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\number.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\number.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\number.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\plural.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\plural.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\plural.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\plural.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\relative-time.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\relative-time.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\relative-time.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\relative-time.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\unit.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\globalize\\globalize\\unit.min.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\globalize\\unit.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\.npmignore",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\.npmignore"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\.travis.yml",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\.travis.yml"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\gulpfile.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\gulpfile.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nupkg",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nupkg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nuspec",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nuspec"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nupkg",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nupkg"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nuspec",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nuspec"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\fakes.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\fakes.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\fakes.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\fakes.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\tests.html",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\tests.html"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\tests.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\tests.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-globalize\\test\\tests.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\test\\tests.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\icedhydro\\Dropbox\\CsharpNETCore\\EvidencePojisteni\\EvidencePojisteni\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EvidencePojisteni.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EvidencePojisteni.props",
+      "PackagePath": "build\\EvidencePojisteni.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EvidencePojisteni.props",
+      "PackagePath": "buildMultiTargeting\\EvidencePojisteni.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EvidencePojisteni.props",
+      "PackagePath": "buildTransitive\\EvidencePojisteni.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

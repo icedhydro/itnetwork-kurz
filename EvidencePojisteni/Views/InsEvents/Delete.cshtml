@@ -1,0 +1,64 @@
+﻿@model EvidencePojisteni.Models.InsEvent
+
+@{
+	ViewData["Title"] = "Odstranit pojistnou událost";
+}
+
+<div class="container-fluid page-header py-3 mb-3 wow fadeIn" data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">@ViewData["Title"]</h1>
+	</div>
+</div>
+
+<div class="container">
+
+	<h3>Opravdu si přejete odstranit pojistnou událost uživatele @Html.DisplayFor(model => model.Insurance.Insured.FirstName) @Html.DisplayFor(model => model.Insurance.Insured.LastName)?</h3>
+
+	<div>
+		<hr />
+		<dl class="row">
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Name)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Name)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Date)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Date)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Description)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Description)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Amount)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Amount) Kč
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Status)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Status)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Insurance)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Insurance.Subject)
+			</dd>
+		</dl>
+
+		<form asp-action="Delete">
+			<input type="hidden" asp-for="Id" />
+			<input type="submit" value="Odstranit" class="btn btn-sm btn-danger" />
+			<a role="button" class="btn btn-sm btn-primary text-light" asp-action="Index">Zpět</a>
+		</form>
+	</div>
+</div>

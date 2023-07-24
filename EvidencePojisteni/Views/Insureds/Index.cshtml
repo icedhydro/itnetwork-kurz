@@ -1,0 +1,70 @@
+﻿@model IEnumerable<EvidencePojisteni.Models.Insured>
+
+@{
+	ViewData["Title"] = "Pojištěnci";
+}
+
+
+<div class="container-fluid page-header py-3 mb-3 wow fadeIn" data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">@ViewData["Title"]</h1>
+	</div>
+</div>
+
+<div class="container">
+	<div class="p-3 pt-0 d-flex justify-content-end align-items-center">
+
+		@if (User.IsInRole("admin"))
+		{
+			<a role="button" class="btn btn-success ms-auto" asp-action="Create">Vytvořit pojištěnce</a>
+		}
+	</div>
+
+
+	<div class="table-responsive">
+		<table class="table table-striped">
+			<thead class="table-dark">
+				<tr>
+					<th>
+						Jméno
+					</th>
+					<th>
+						Telefon
+					</th>
+					<th>
+						Bydliště
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>
+							<a asp-action="Details" asp-route-id="@item.Id">
+								@Html.DisplayFor(modelItem => item.FirstName)
+								@Html.DisplayFor(modelItem => item.LastName)
+							</a>
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Phone)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Street),
+							@Html.DisplayFor(modelItem => item.City)
+						</td>
+						<td class="text-end">
+							<a role="button" class="btn btn-sm btn-warning text-light" asp-action="Edit" asp-route-id="@item.Id">Upravit</a>
+							@if (User.IsInRole("admin"))
+							{
+								<a role="button" class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Odstranit</a>
+							}
+							<a role="button" class="btn btn-sm btn-info text-light" asp-action="Details" asp-route-id="@item.Id">Podrobnosti</a>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>

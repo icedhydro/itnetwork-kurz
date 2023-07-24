@@ -1,0 +1,7 @@
+﻿@if (!string.IsNullOrEmpty(TempData["Message"] as string))
+{
+    <div id="info-alert" class="alert alert-@TempData["AlertType"] alert-dismissible fade show position-fixed" role="alert">
+        @TempData["Message"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}

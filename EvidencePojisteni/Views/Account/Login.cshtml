@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model LoginViewModel
+@inject SignInManager<IdentityUser> SignInManager
+
+@{
+	ViewData["Title"] = "Přihlášení";
+}
+
+<div class="container-fluid page-header py-3 mb-3 wow fadeIn" data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">@ViewData["Title"]</h1>
+	</div>
+</div>
+
+<div class="container">
+	@if (!string.IsNullOrEmpty(ViewData["Message"] as string))
+	{
+		<div class="alert alert-warning d-flex align-items-center alert-dismissible fade show" role="alert">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+				<path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+			</svg>
+			<div>
+				@ViewData["Message"]
+			</div>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+		</div>
+	}
+
+	<div class="row align-items-center">
+		<div class="col-lg-4 offset-lg-4">
+			<form class="d-flex flex-column gap-2" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+				<div asp-validation-summary="All" class="text-danger"></div>
+				<div class="form-group">
+					<label asp-for="Email"></label>
+					<input asp-for="Email" class="form-control" />
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Password"></label>
+					<input asp-for="Password" class="form-control" />
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<div class="checkbox">
+						<label asp-for="RememberMe">
+							<input asp-for="RememberMe" />
+							@Html.DisplayNameFor(m => m.RememberMe)
+						</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary align-self-start">Přihlásit se</button>
+				</div>
+				<div class="form-group">
+					<p>
+						Nemáte uživatelský účet?
+						<a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">Registrovat</a>
+					</p>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	@await Html.PartialAsync("_ValidationScriptsPartial")
+}

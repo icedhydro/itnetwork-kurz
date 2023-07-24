@@ -1,0 +1,80 @@
+﻿@model EvidencePojisteni.Models.Insured
+
+@{
+	ViewData["Title"] = "Vytvořit pojištěnce";
+}
+
+<div class="container-fluid page-header py-3 mb-3 wow fadeIn" data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">@ViewData["Title"]</h1>
+	</div>
+</div>
+
+<div class="container">
+	<form class="row" asp-action="Create">
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label asp-for="FirstName" class="control-label"></label>
+				<input asp-for="FirstName" class="form-control" />
+				<span asp-validation-for="FirstName" class="text-danger"></span>
+			</div>
+			<div class="col-lg-3">
+				<label asp-for="LastName" class="control-label"></label>
+				<input asp-for="LastName" class="form-control" />
+				<span asp-validation-for="LastName" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label asp-for="Email" class="control-label"></label>
+				<input asp-for="Email" class="form-control" />
+				<span asp-validation-for="Email" class="text-danger"></span>
+			</div>
+			<div class="col-lg-3">
+				<label asp-for="Password" class="control-label"></label>
+				<input asp-for="Password" class="form-control" />
+				<span asp-validation-for="Password" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label asp-for="ConfirmPassword" class="control-label"></label>
+				<input asp-for="ConfirmPassword" class="form-control" />
+				<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+			</div>
+			<div class="col-lg-3">
+				<label asp-for="Phone" class="control-label"></label>
+				<input asp-for="Phone" class="form-control" />
+				<span asp-validation-for="Phone" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label asp-for="Street" class="control-label"></label>
+				<input asp-for="Street" class="form-control" />
+				<span asp-validation-for="Street" class="text-danger"></span>
+			</div>
+			<div class="col-lg-2">
+				<label asp-for="City" class="control-label"></label>
+				<input asp-for="City" class="form-control" />
+				<span asp-validation-for="City" class="text-danger"></span>
+			</div>
+			<div class="col-lg-1">
+				<label asp-for="PostalCode" class="control-label"></label>
+				<input asp-for="PostalCode" class="form-control" />
+				<span asp-validation-for="PostalCode" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="col-lg-6 my-3">
+			<input type="submit" value="Vytvořit" class="btn btn-sm btn-success" />
+			<a role="button" class="btn btn-sm btn-primary text-light" asp-action="Index">Zpět</a>
+		</div>
+	</form>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

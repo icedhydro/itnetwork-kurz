@@ -1,0 +1,68 @@
+﻿@model RegisterViewModel
+@{
+	ViewData["Title"] = "Registrace";
+}
+
+<div class="container-fluid page-header py-3 wow fadeIn" data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">@ViewData["Title"]</h1>
+	</div>
+</div>
+
+<div class="container">
+	<form class="row g-3" asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<div class="col-lg-3 offset-lg-3">
+			<label asp-for="FirstName"></label>
+			<input asp-for="FirstName" class="form-control" />
+			<span asp-validation-for="FirstName" class="text-danger"></span>
+		</div>
+		<div class="col-lg-3">
+			<label asp-for="LastName"></label>
+			<input asp-for="LastName" class="form-control" />
+			<span asp-validation-for="LastName" class="text-danger"></span>
+		</div>
+		<div class="col-lg-3 offset-lg-3">
+			<label asp-for="Email"></label>
+			<input asp-for="Email" class="form-control" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+		<div class="col-lg-3">
+			<label asp-for="Phone"></label>
+			<input asp-for="Phone" class="form-control" />
+			<span asp-validation-for="Phone" class="text-danger"></span>
+		</div>
+		<div class="col-lg-3 offset-lg-3">
+			<label asp-for="Street"></label>
+			<input asp-for="Street" class="form-control" />
+			<span asp-validation-for="Street" class="text-danger"></span>
+		</div>
+		<div class="col-lg-2">
+			<label asp-for="City"></label>
+			<input asp-for="City" class="form-control" />
+			<span asp-validation-for="City" class="text-danger"></span>
+		</div>
+		<div class="col-lg-1">
+			<label asp-for="PostalCode"></label>
+			<input asp-for="PostalCode" class="form-control" />
+			<span asp-validation-for="PostalCode" class="text-danger"></span>
+		</div>
+		<div class="col-lg-3 offset-lg-3">
+			<label asp-for="Password"></label>
+			<input asp-for="Password" class="form-control" />
+			<span asp-validation-for="Password" class="text-danger"></span>
+		</div>
+		<div class="col-lg-3">
+			<label asp-for="ConfirmPassword"></label>
+			<input asp-for="ConfirmPassword" class="form-control" />
+			<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+		</div>
+		<div class="col-lg-6 offset-lg-3">
+			<button type="submit" class="btn btn-primary align-self-start">Registrovat</button>
+		</div>
+	</form>
+</div>
+
+@section Scripts {
+	@await Html.PartialAsync("_ValidationScriptsPartial")
+}

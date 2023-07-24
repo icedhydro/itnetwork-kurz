@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<div class="d-flex align-items-center">
+	@if (SignInManager.IsSignedIn(User))
+	{
+		<a class="nav-item nav-link">Vítejte @User.Identity.Name!</a>
+
+		<a class="nav-item nav-link btn btn-primary btn-sm" asp-area="Identity" asp-controller="Account" asp-action="Logout">Odhlásit</a>
+	}
+	else
+	{
+		<a class="nav-item nav-link px-3 me-2" asp-area="Identity" asp-controller="Account" asp-action="Login">Přihlásit</a>
+
+		<a class="nav-item nav-link btn btn-primary btn-sm me-3" asp-area="Identity" asp-controller="Account" asp-action="Register">Registrace</a>
+	}
+</div>

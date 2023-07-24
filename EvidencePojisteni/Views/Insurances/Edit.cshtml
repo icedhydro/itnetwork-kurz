@@ -1,0 +1,75 @@
+﻿@model EvidencePojisteni.Models.Insurance
+
+@{
+	ViewData["Title"] = "Upravit pojištění";
+}
+
+<div class="container-fluid page-header py-3 mb-3 wow fadeIn" data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">@ViewData["Title"]</h1>
+	</div>
+</div>
+
+<div class="container">
+
+	<dl class="row">
+		<dt class="col-sm-2">
+			Pojištěnec
+		</dt>
+		<dd class="col-sm-10">
+			<a asp-controller="Insureds" asp-action="Details" asp-route-id="@ViewBag.Insured.Id">
+				@ViewBag.Insured.FirstName @ViewBag.Insured.LastName
+			</a>
+		</dd>
+	</dl>
+
+	<hr />
+
+	<form class="row" asp-action="Edit">
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		<input type="hidden" asp-for="Id" />
+		<input type="hidden" asp-for="InsuredId" />
+		<div class="row">
+			<div class="col-lg-3">
+				<label asp-for="Type" class="control-label"></label>
+				<select asp-for="Type" class="form-control" asp-items="Insurance.GetInsuranceTypes()"></select>
+				<span asp-validation-for="Type" class="text-danger"></span>
+			</div>
+			<div class="col-lg-3">
+				<label asp-for="Subject" class="control-label"></label>
+				<input asp-for="Subject" class="form-control" />
+				<span asp-validation-for="Subject" class="text-danger"></span>
+			</div>
+			<div class="col-lg-2">
+				<label asp-for="Amount" class="control-label"></label>
+				<input asp-for="Amount" class="form-control" />
+				<span asp-validation-for="Amount" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label asp-for="ValidFrom" class="control-label"></label>
+				<input asp-for="ValidFrom" class="form-control" />
+				<span asp-validation-for="ValidFrom" class="text-danger"></span>
+			</div>
+			<div class="col-lg-3">
+				<label asp-for="ValidUntil" class="control-label"></label>
+				<input asp-for="ValidUntil" class="form-control" />
+				<span asp-validation-for="ValidUntil" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="col-lg-6 my-3">
+			@if (User.IsInRole("admin"))
+			{
+				<input type="submit" value="Uložit" class="btn btn-sm btn-success" />
+			}
+			<a role="button" class="btn btn-sm btn-primary text-light" asp-action="Index">Zpět</a>
+		</div>
+	</form>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

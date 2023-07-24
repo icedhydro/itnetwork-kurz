@@ -1,0 +1,76 @@
+﻿@model IEnumerable<EvidencePojisteni.Models.Insurance>
+
+@{
+	ViewData["Title"] = "Pojištění";
+}
+
+<div class="container-fluid page-header py-3 mb-3 wow fadeIn" data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">@ViewData["Title"]</h1>
+	</div>
+</div>
+
+<div class="container">
+	<div class="table-responsive">
+		<table class="table table-striped">
+			<thead class="table-dark">
+				<tr>
+					<th>
+						Pojištěnec
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Type)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Amount)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Subject)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.ValidFrom)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.ValidUntil)
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>
+							<a asp-controller="Insureds" asp-action="Details" asp-route-id="@item.Insured.Id">
+								@item.Insured.FirstName @item.Insured.LastName
+							</a>
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Type)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Amount) Kč
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Subject)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.ValidFrom)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.ValidUntil)
+						</td>
+						<td class="text-end">
+							@if (User.IsInRole("admin"))
+							{
+								<a role="button" class="btn btn-sm btn-warning text-light" asp-action="Edit" asp-route-id="@item.Id">Upravit</a>
+								<a role="button" class="btn btn-sm btn-danger text-light" asp-action="Delete" asp-route-id="@item.Id">Odstranit</a>
+							}
+							<a role="button" class="btn btn-sm btn-info text-light" asp-action="Details" asp-route-id="@item.Id">Podrobnosti</a>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>

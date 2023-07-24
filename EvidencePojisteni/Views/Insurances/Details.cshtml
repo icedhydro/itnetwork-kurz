@@ -1,0 +1,131 @@
+﻿@model EvidencePojisteni.Models.Insurance
+
+@{
+	ViewData["Title"] = "Podrobnosti pojištění";
+}
+
+<div class="container-fluid page-header py-3 mb-3 wow fadeIn" data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">@ViewData["Title"]</h1>
+	</div>
+</div>
+
+<div class="container custom-container">
+
+	<div>
+		<div class="d-flex justify-content-between align-items-center">
+			<h4>@ViewBag.Insured.FirstName @ViewBag.Insured.LastName</h4>
+			<div>
+				@if (User.IsInRole("admin"))
+				{
+					<a role="button" class="btn btn-sm btn-warning text-light" asp-action="Edit" asp-route-id="@Model?.Id">Upravit</a>
+				}
+				<a role="button" class="btn btn-sm btn-primary text-light" asp-action="Index">Zpět</a>
+			</div>
+		</div>
+
+		<hr />
+		<dl class="row">
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Type)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Type)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Amount)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Amount) Kč
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Subject)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Subject)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.ValidFrom)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.ValidFrom)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.ValidUntil)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.ValidUntil)
+			</dd>
+		</dl>
+	</div>
+
+	@if (Model.InsEvent.Count != 0)
+	{
+		<div class="pt-2 d-flex justify-content-between align-items-center">
+			<h4>Pojistné události</h4>
+			<div>
+				@if (User.IsInRole("admin"))
+				{
+					<a asp-controller="Insurances" asp-action="Create" class="btn btn-sm btn-success text-light">Přidat událost</a>
+				}
+			</div>
+		</div>
+		<hr />
+		<div class="table-responsive">
+			<table class="table table-striped">
+				<thead class="table-dark">
+					<tr>
+						<th>Název události</th>
+						<th>Datum</th>
+						<th>Stav</th>
+						<th>Výše plnění</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var insevent in Model.InsEvent)
+					{
+						<tr>
+							<td>
+								<a asp-controller="InsEvents" asp-action="Details"
+						   asp-route-id="@insevent.Id">@Html.DisplayFor(modelItem => insevent.Name)</a>
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => insevent.Date)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => insevent.Status)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => insevent.Amount)
+							</td>
+							<td class="text-end">
+								@if (User.IsInRole("admin"))
+								{
+									<a role="button" class="btn btn-sm btn-warning text-light" asp-controller="InsEvents" asp-action="Edit" asp-route-id="@insevent.Id">Upravit</a>
+									<a role="button" class="btn btn-sm btn-danger text-light" asp-controller="InsEvents" asp-action="Delete" asp-route-id="@insevent.Id">Odstranit</a>
+								}
+								<a role="button" class="btn btn-sm btn-info text-light" asp-controller="InsEvents" asp-action="Details" asp-route-id="@insevent.Id">Podrobnosti</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	}
+	else
+	{
+		<div class="pt-2 d-flex justify-content-between align-items-center">
+			<h4>Pojistné události</h4>
+			<div>
+				@if (User.IsInRole("admin"))
+				{
+					<a asp-controller="InsEvents" asp-action="Create" class="btn btn-sm btn-success text-light">Přidat událost</a>
+				}
+			</div>
+		</div>
+		<hr />
+		<p>Žádné pojistné události.</p>
+	}
+
+</div>
