@@ -36,7 +36,7 @@ namespace EvidencePojisteni.Models
 
         [Required(ErrorMessage = "PSČ je povinný údaj")]
         [Display(Name = "PSČ")]
-        [RegularExpression(@"^\d{5}$", ErrorMessage = "Zadejte platné PSČ")]
+        [RegularExpression(@"^\d{3}\s?\d{2}$|^\d{5}$", ErrorMessage = "Zadejte platné PSČ.")]
         public string PostalCode { get; set; }
 
         [Required(ErrorMessage = "Zadejte heslo")]
